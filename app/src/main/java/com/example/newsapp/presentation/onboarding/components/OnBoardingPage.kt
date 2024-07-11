@@ -1,6 +1,7 @@
 package com.example.newsapp.presentation.onboarding.components
 
 import android.content.res.Configuration
+import android.content.res.Configuration.UI_MODE_NIGHT_YES
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -61,7 +62,7 @@ fun OnBoardingPage(
 
 @Preview(showBackground = true)
 // отдельное превью для ночного режима
-@Preview(uiMode = Configuration.UI_MODE_NIGHT_YES, showBackground = true)
+@Preview(uiMode = UI_MODE_NIGHT_YES, showBackground = true)
 @Composable
 fun OnBoardingPagePreview() {
     NewsAppTheme {
