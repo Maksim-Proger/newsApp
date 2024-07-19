@@ -19,7 +19,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.example.newsapp.presentation.Dimens.MediumPadding2
-import com.example.newsapp.presentation.Dimens.PageIndocatorWidth
+import com.example.newsapp.presentation.Dimens.PageIndicatorWidth
 import com.example.newsapp.presentation.common.NewsButton
 import com.example.newsapp.presentation.common.NewsTextButton
 import com.example.newsapp.presentation.onboarding.components.OnBoardingPage
@@ -66,7 +66,7 @@ fun OnBoardingScreen(
         ) {
             PageIndicator(
                 modifier = Modifier
-                    .width(PageIndocatorWidth),
+                    .width(PageIndicatorWidth),
                 pageSize = pages.size,
                 selectedPage = pagerState.currentPage
             )
